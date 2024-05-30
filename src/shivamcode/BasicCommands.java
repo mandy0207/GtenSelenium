@@ -14,18 +14,15 @@ public static void main(String[] args) throws InterruptedException {
 		
 		// grab a title
 		String title = driver.getTitle();
-		
 		System.out.println(title);
-		
 		driver.navigate().back();
 		
 		Thread.sleep(2000);
 		
 		driver.navigate().forward();
-		
-		 System.out.println( driver.getCurrentUrl());
+		System.out.println( driver.getCurrentUrl());
 		 
-		 Thread.sleep(2000);
+		Thread.sleep(2000);
 		
 		 //will always close the current window/ tab
 		 //driver.close();
