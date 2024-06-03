@@ -40,6 +40,7 @@ public class LearnFrames {
 		
 
 		}
+	
 
 	public static void  switchFrame(String id) {
 		driver.switchTo().frame(id);
