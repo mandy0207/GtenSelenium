@@ -25,7 +25,7 @@ public class WebTesting {
 		System.out.println("I am in first web test case");
 	}
 	
-	@Test(priority =1)
+	@Test(priority =1, groups="Smoke")
 	public void secondWebTest() {
 		System.out.println("I am in second web test case");
 	}

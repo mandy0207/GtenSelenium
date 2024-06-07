@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class MobileTesting {
 
 	
-	@Test
+	@Test(groups= "Smoke")
 	public void firstMobileTest() {
 		System.out.println("I am in first mobile test");
 	}
