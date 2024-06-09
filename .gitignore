@@ -1,0 +1,8 @@
+.DS_Store
+.classpath
+target/classes/.gitignore
+target/classes/META-INF/maven/GtenSeleniumAutomation/GtenSelenium/pom.xml
+target/classes/Alerts/Alerts4.class
+target/classes/Alerts/Alerts5.class
+target/classes/Alerts/Alerts6.class
+target/.DS_Store
