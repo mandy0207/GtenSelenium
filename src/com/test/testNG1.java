@@ -7,6 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class testNG1 {
 	
@@ -26,19 +27,31 @@ public class testNG1 {
 
 	}
 	@Test
-	public void title() {
+	public void testUrl() {
 		
 		 String url=driver.getCurrentUrl();
 		 
 		 Assert.assertEquals(true, url.equals("https://www.amazon.in/"));
+
+	}
+	
+	
+	@Test
+	public void title() {
+		
+		 String url=driver.getTitle();
+		 
+		 //Assert.assertEquals(true, url.equals("Amazon"));
+		 
+		 Assert.assertTrue(url.equals("Amazon"));
 		 
 
 	}
+	
+	
 	@AfterTest
-	public void teardown() {
-		 
+	public void teardown() { 
 		 driver.quit();
-		 
 
 	}
 	
