@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <parameter name="username" value="testmay2510pm"></parameter>
+        <parameter name="password" value="Rewq@1234"></parameter>
+        <classes>
+            <class name="shivamcode.asserttion_dataprovider" />
+        </classes>
+    </test>
+</suite>
