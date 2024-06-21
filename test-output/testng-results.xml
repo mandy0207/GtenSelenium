@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-08T12:11:51 IST" name="Default suite" finished-at="2024-06-08T12:11:57 IST" duration-ms="6656">
+  <suite started-at="2024-06-21T18:54:17 IST" name="Default suite" finished-at="2024-06-21T18:54:17 IST" duration-ms="58">
     <groups>
     </groups>
-    <test started-at="2024-06-08T12:11:51 IST" name="Default test" finished-at="2024-06-08T12:11:57 IST" duration-ms="6656">
-      <class name="uiComponents.UsingAssertions">
-        <test-method signature="mytest()[pri:0, instance:uiComponents.UsingAssertions@4fb0f2b9]" started-at="2024-06-08T12:11:51 IST" name="mytest" finished-at="2024-06-08T12:11:57 IST" duration-ms="6613" status="PASS">
+    <test started-at="2024-06-21T18:54:17 IST" name="Default test" finished-at="2024-06-21T18:54:17 IST" duration-ms="58">
+      <class name="learnListener.MYTest">
+        <test-method signature="prashant()[pri:0, instance:learnListener.MYTest@12468a38]" started-at="2024-06-21T18:54:17 IST" name="prashant" finished-at="2024-06-21T18:54:17 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mytest -->
-      </class> <!-- uiComponents.UsingAssertions -->
+        </test-method> <!-- prashant -->
+        <test-method signature="vinod()[pri:0, instance:learnListener.MYTest@12468a38]" started-at="2024-06-21T18:54:17 IST" name="vinod" finished-at="2024-06-21T18:54:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vinod -->
+      </class> <!-- learnListener.MYTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

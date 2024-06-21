@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uiComponents.UsingAssertions">
+      <class name="learnExtentReport.LearnExtentReport">
         <methods>
-          <include name="mytest"/>
+          <include name="generateReport"/>
+          <include name="mytest3"/>
         </methods>
-      </class> <!-- uiComponents.UsingAssertions -->
+      </class> <!-- learnExtentReport.LearnExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
